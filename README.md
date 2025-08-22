@@ -22,7 +22,7 @@ sonner
 
 ### 1. Adding  plugins: [nextCookies()] in the auth.ts as the last variable
 
-### 2. Esuring the schema is exported from the schema.ts file
+### 2. Esuring the schema is exported from the schema.ts file and placed in the DizzleAdapter object in the auth.ts fle
 
 ## Steps
 
