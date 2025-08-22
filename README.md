@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+### <https://www.better-auth.com/docs/installation>
+
 ## Basic Login/ Register form with Better Auth
 
 ## Tech Stack Used
@@ -34,4 +36,36 @@ sonner
 
 ### 4. Configure the DB and ORM
 
-### 5
+### 5.  Add Neon Database Serverless and dot env package
+
+### 6.  Create Neon DB project
+
+### 7.  Create DB folder with basic boilerplate drizzle.ts file. Create Empty schema.ts file
+
+### 8. Create drizzle.config.ts file
+
+### 9. Update the auth.ts file (Step 3) with basic auth file from documentation
+
+### 10. Execute npx @better-auth/cli generate to populate the DB
+
+### 11. Populate the empty schema.ts file with the created auth-schema.ts file generated from step 10
+
+### 11. execute the command npx drizzle-kit-push. This will push the tables to the DB
+
+### 12. Update the auth.ts file with the providers (email/password or scial providers)
+
+### 13. Create the API route that is needed for server side calls app/api/auth/[...all]/route.ts
+
+### 14. Create the auth-client.ts fle in the lib directory lib/auth-client.ts
+
+### 15. Create Middleware.ts
+
+### 16. Create Server Actions file
+
+## UI
+
+### 1. Imlement Shadcn
+
+### 2. Use the Login Form from shadcn blocks
+
+### 3. Use react Hook form to get data and send to the server
